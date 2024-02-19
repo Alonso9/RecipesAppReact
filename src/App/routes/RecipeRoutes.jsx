@@ -7,7 +7,7 @@ export const RecipeRoutes = () => {
         <Route path="/" element={ <RecipePage/>} />
         <Route path="/recipe" element={ <RecipeDetail/>} />
 
-        {/* <Route path="/*" element={ <Navigate to="/" />} /> */}
+        <Route path="/*" element={ <Navigate to="/" />} />
     </Routes>
   )
 }
